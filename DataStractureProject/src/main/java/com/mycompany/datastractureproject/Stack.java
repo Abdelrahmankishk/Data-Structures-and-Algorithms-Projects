@@ -22,7 +22,7 @@ public class Stack {
     }
     
     public char top(){
-        if(isEmpty()== true){
+        if(isEmpty()){
             System.out.println("Stack is empty");
             return 'N';
         }
@@ -33,7 +33,7 @@ public class Stack {
     
     public char pop(){
         Node temp = new Node();
-        if (top == null){
+        if (isEmpty()){
             System.out.println("Stack Underflow");
             return 'N';
         }
