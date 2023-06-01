@@ -16,10 +16,6 @@ public class Stack {
     
     public void push(char x){
         Node temp = new Node();
-        if (temp == null){
-            System.out.println("Error: Stack Underflow");
-            return;
-        }
         temp.data = x;
         temp.next = top;
         top = temp;
