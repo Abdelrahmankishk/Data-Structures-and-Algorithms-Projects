@@ -1,3 +1,0 @@
-﻿  Source.cpp
-D:\Course\Session 15\LinkedList\LinkedList\Source.cpp(9,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  LinkedList.vcxproj -> D:\Course\Session 15\LinkedList\x64\Debug\LinkedList.exe
